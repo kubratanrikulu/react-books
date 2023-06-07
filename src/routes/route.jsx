@@ -1,7 +1,7 @@
 import About from "/src/pages/About/About.jsx";
-import Homepage from "../pages/Homepage/homepage";
-import Blog from "../pages/Blog/Blog";
+
 import Contact from "../pages/Contact/Contact";
+import Homepage from "../pages/Homepage/HomePage";
 const routesPaths = [
   {
     path: "/",
@@ -15,10 +15,7 @@ const routesPaths = [
     path: "/contact",
     element: <Contact/>
   },
-  {
-    path: "/blog",
-    element: <Blog/>
-  },
+ 
   
 ];
 
