@@ -1,8 +1,9 @@
+import BookList from "../../components/BookList/BookList"
 
 
 const Homepage = () => {
   return (
-    <div>p</div>
+    <div><BookList /></div>
   )
 }
 

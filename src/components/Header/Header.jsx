@@ -1,5 +1,5 @@
 import navRoutes from "./navRoutes";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 const Header = () => {
   const navigate = useNavigate();
   return (
@@ -35,6 +35,7 @@ const Header = () => {
                 </a>
               ))}
               </div>
+              <div ><Link to="/favorites"><h3>Your Favorite</h3></Link></div>
           </div>
         </div>
       </nav>
